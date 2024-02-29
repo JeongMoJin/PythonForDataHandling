@@ -46,36 +46,18 @@ file = open('./output/my_file.txt', 'wt') # 빈파일 생성
 print('my_file.txt 파일이 생성되었습니다.')
 file.close()
 
+# 텍스트 파일을 새로 만들 수 있는 모드인 wt모드를 사용하여 my_file.txt라는 이름의
+# 텍스트 파일을 output 이라는 디렉터리에 생성하는 코드
 
+# with 문
+# close() 메소드를 자동으로 호출할 수 있는 문법을 제공
+# with문을 사용하면 with문이 끝날 때 언제나 close() 메소드가 자동으로 호출하기 때문에
+# 별도의 예외 처리를 하지 않더라도 프로그램이나 파일의 에러로 close()가 호출이 안되는
+# 상황을 방지
 
+# 기본 구성
+# with open(파일명, 모드) as 파일객체:
+#   파일처리코드
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+with open('./output/my_file_1.txt', 'wt') as file:
+    print('my_file_1.txt 파일이 생성되었습니다.')
