@@ -4,7 +4,7 @@ import requests
 
 # 1. 데이터 수집
 # 서비스 키
-service_key :str = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6/OmN0NsBd93gg=='
+service_key :str = 'service_key'
 
 url = 'http://apis.data.go.kr/B552584/MsrstnInfoInqireSvc/getMsrstnList'
 param_str : str = f'?addr=대구&pageNo=1&numOfRows=30&serviceKey={service_key}&returnType=json'

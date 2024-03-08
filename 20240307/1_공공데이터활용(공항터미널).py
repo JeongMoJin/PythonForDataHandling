@@ -5,7 +5,7 @@ import requests
 import xmltodict
 
 # 인증키 저장
-service_key : str = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6%2FOmN0NsBd93gg%3D%3D'
+service_key : str = 'service_key'
 
 # URL 기입
 url = 'http://apis.data.go.kr/B551177/BusInformation/getBusInfo'

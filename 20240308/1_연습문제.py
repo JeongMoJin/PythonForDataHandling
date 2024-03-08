@@ -27,6 +27,11 @@ for tag in tags:
     link: str = tag.find_all('a')[1].get('href')
 
     print(f'title: {title}, link : {link}')
+
+    response = requests.get(link)
+    soup = bs(response.text, 'html.parser')
+    print(soup.find('div',{'class' : 'article_view'}).text.strip())
+
     print('-' * 20)
 
 

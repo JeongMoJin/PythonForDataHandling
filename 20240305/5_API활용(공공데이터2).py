@@ -22,7 +22,7 @@ import json
 
 # 1. 초기값 설정
 # 1) 서비스 키 : requests 사용시 자동으로 인코딩되어서 Decoding된 키를 사용
-service_key : str = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6/OmN0NsBd93gg=='
+service_key : str = 'service_key'
 
 # 2) 날짜 및 시간 설정
 now: datetime = datetime.datetime.now() # 현재 날짜 및 시간 변환

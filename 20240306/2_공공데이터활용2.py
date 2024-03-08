@@ -1,7 +1,7 @@
 import json
 import requests
 
-service_key : str = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6/OmN0NsBd93gg=='
+service_key : str = 'service_key'
 
 url_tm = 'http://apis.data.go.kr/B552584/MsrstnInfoInqireSvc/getTMStdrCrdnt'
 # params_tm ={'serviceKey' : service_key, 'returnType' : 'json', 'numOfRows' : '100', 'pageNo' : '1', 'umdName' : '대명동' }
