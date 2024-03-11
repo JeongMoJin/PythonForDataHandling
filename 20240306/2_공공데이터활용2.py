@@ -9,6 +9,7 @@ params_tm2 =f'?umdName=대명동&pageNo=1&numOfRows=10&returnType=json&serviceKe
 print(url_tm + params_tm2)
 
 response = requests.get(url_tm + params_tm2)
+
 json_data = response.text # HTTP 응답에서 텍스트 데이터를 추출
 dict_data = json.loads(json_data) # JSON 형식의 문자열을 파이썬의 딕셔너리로 변환
 print(dict_data)

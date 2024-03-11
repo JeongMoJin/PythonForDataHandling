@@ -1,5 +1,4 @@
 import pprint
-
 import requests
 import os.path
 from bs4 import BeautifulSoup as bs
